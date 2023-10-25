@@ -58,7 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Made with"
-                    android:textColor="@android:color/black"  />
+                    android:textColor="@color/colorWhite"  />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Bosowa Bandar"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@color/colorWhite" />
             </LinearLayout>
         </RelativeLayout>
 
