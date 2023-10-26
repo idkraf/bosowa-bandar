@@ -55,6 +55,7 @@ class MainActivity : Activity() {
     private lateinit var btnTryAgain: Button
     private lateinit var mWebView: WebView
     private lateinit var prgs: ProgressBar
+    private var viewSplash: View? = null
     private lateinit var layoutSplash: RelativeLayout
     private lateinit var layoutWebview: RelativeLayout
     private lateinit var layoutNoInternet: RelativeLayout
@@ -71,6 +72,7 @@ class MainActivity : Activity() {
         mWebView = findViewById<View>(R.id.webview) as WebView
         prgs = findViewById<View>(R.id.progressBar) as ProgressBar
         btnTryAgain = findViewById<View>(R.id.btn_try_again) as Button
+        viewSplash = findViewById<View>(R.id.view_splash) as View
         layoutWebview = findViewById<View>(R.id.layout_webview) as RelativeLayout
         layoutNoInternet = findViewById<View>(R.id.layout_no_internet) as RelativeLayout
         /** Layout of Splash screen View  */
